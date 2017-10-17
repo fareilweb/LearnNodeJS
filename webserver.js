@@ -22,7 +22,7 @@ http.createServer( function (request, response) {
       }else {	
          //Page found	  
          // HTTP Status: 200 : OK
-         // Content Type: text/plain
+         // Content Type: text/html
          response.writeHead(200, {'Content-Type': 'text/html'});	
          
          // Write the content of the file to response body
